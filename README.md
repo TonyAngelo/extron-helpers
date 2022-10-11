@@ -6,17 +6,17 @@ A command line interface for scripter programs.
 
 Available commands:
 
-getLibVersion: Gets the extron library version
-getUpTime: Gets the Processor uptime, in seconds
-getCurrentLoad: Gets the load of 12V DC power supply in watts
-getFirmware: Gets the current firmware of the processor
-getMACAddress: Gets the MAC address of the processor
-getDeviceModel: Gets the model number of the processor
-getDevicePart: Gets the part number of the processor
-getDeviceSerial: Gets the serial number of the processor
-getStorage: Gets the processor hard drive space used, in KB
-help: will return the above list of functions
-endSession: will end the session
+- getLibVersion: Gets the extron library version
+- getUpTime: Gets the Processor uptime, in seconds
+- getCurrentLoad: Gets the load of 12V DC power supply in watts
+- getFirmware: Gets the current firmware of the processor
+- getMACAddress: Gets the MAC address of the processor
+- getDeviceModel: Gets the model number of the processor
+- getDevicePart: Gets the part number of the processor
+- getDeviceSerial: Gets the serial number of the processor
+- getStorage: Gets the processor hard drive space used, in KB
+- help: will return the above list of functions
+- endSession: will end the session
 
 If the string entered in the CLI doesn't match any of the above commands, it will get sent along to a callback function if it has been defined. Use can use this callback function to test elements of code. 
 
